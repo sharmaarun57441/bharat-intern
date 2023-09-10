@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Conferencing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="local-video">
+            <video id="localVideo" autoplay muted></video>
+        </div>
+        <div class="remote-video">
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <div class="chat">
+            <div id="chatMessages"></div>
+            <input type="text" id="chatInput" placeholder="Type your message">
+        </div>
+        <button id="startButton">Start Call</button>
+        <button id="stopButton">End Call</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
